@@ -43,4 +43,4 @@ go build -o proxy_server
 ./proxy_server -target="https://api.example.com" -key="sk-your-key" -addr=":8080"
 ```
 
-这将启动一个代理服务器，监听在 8080 端口，将所有请求转发到 https://api.example.com，并添加指定的 API Key。 
+这将启动一个代理服务器，监听在 8080 端口，将所有请求转发到 https://api.example.com ，并添加指定的 API Key。 
